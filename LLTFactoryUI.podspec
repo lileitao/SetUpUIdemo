@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.dependency 'Masonry', '~> 1.0.2'
   s.requires_arc = true
-
+  s.prefix_header_contents = "#import <Masonry.h>"
 
 end
