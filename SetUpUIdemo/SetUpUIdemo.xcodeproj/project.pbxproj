@@ -17,6 +17,7 @@
 		F2EF507D1DFA94EB003D18D0 /* SetUpUIdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF507C1DFA94EB003D18D0 /* SetUpUIdemoTests.m */; };
 		F2EF50881DFA94EB003D18D0 /* SetUpUIdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF50871DFA94EB003D18D0 /* SetUpUIdemoUITests.m */; };
 		F2EF509C1DFA96DB003D18D0 /* LLTFactoryUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF509B1DFA96DB003D18D0 /* LLTFactoryUI.m */; };
+		F2EF509F1DFAB504003D18D0 /* UIView+LLTaddTap.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF509E1DFAB504003D18D0 /* UIView+LLTaddTap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		F2EF50891DFA94EB003D18D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EF509A1DFA96DB003D18D0 /* LLTFactoryUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTFactoryUI.h; sourceTree = "<group>"; };
 		F2EF509B1DFA96DB003D18D0 /* LLTFactoryUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTFactoryUI.m; sourceTree = "<group>"; };
+		F2EF509D1DFAB504003D18D0 /* UIView+LLTaddTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLTaddTap.h"; sourceTree = "<group>"; };
+		F2EF509E1DFAB504003D18D0 /* UIView+LLTaddTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLTaddTap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 			children = (
 				F2EF509A1DFA96DB003D18D0 /* LLTFactoryUI.h */,
 				F2EF509B1DFA96DB003D18D0 /* LLTFactoryUI.m */,
+				F2EF509D1DFAB504003D18D0 /* UIView+LLTaddTap.h */,
+				F2EF509E1DFAB504003D18D0 /* UIView+LLTaddTap.m */,
 			);
 			path = LLTFactoryUI;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EF509F1DFAB504003D18D0 /* UIView+LLTaddTap.m in Sources */,
 				F2EF506A1DFA94EB003D18D0 /* ViewController.m in Sources */,
 				F2EF50671DFA94EB003D18D0 /* AppDelegate.m in Sources */,
 				F2EF50641DFA94EB003D18D0 /* main.m in Sources */,
