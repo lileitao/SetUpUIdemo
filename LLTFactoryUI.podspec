@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Masonry', '~> 1.0.2'
   s.requires_arc = true
+  s.platform     = :ios, "8.0"
 
 end
