@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Masonry.h>
 
 @interface UIView (LLTaddTap)
 - (void)addtempViewWithtarget:(id)target andSelector:(SEL)selectorName superView:(UIView *)superView;
