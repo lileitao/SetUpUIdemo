@@ -8,6 +8,7 @@
 
 #import "LLTFactoryUI.h"
 
+
 #define FONT_SCALE(font) font
 
 @implementation LLTFactoryUI

@@ -61,6 +61,7 @@
 		F2EF509B1DFA96DB003D18D0 /* LLTFactoryUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTFactoryUI.m; sourceTree = "<group>"; };
 		F2EF509D1DFAB504003D18D0 /* UIView+LLTaddTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLTaddTap.h"; sourceTree = "<group>"; };
 		F2EF509E1DFAB504003D18D0 /* UIView+LLTaddTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLTaddTap.m"; sourceTree = "<group>"; };
+		F2EF50A31DFABBD9003D18D0 /* LLTProjectHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTProjectHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +183,7 @@
 		F2EF50961DFA96A9003D18D0 /* LLTFactoryUI */ = {
 			isa = PBXGroup;
 			children = (
+				F2EF50A31DFABBD9003D18D0 /* LLTProjectHeader.h */,
 				F2EF509A1DFA96DB003D18D0 /* LLTFactoryUI.h */,
 				F2EF509B1DFA96DB003D18D0 /* LLTFactoryUI.m */,
 				F2EF509D1DFAB504003D18D0 /* UIView+LLTaddTap.h */,
