@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lileitao/SetUpUIdemo.git", :tag => "#{s.version}" }
 
   s.source_files  = "LLTFactoryUI", "*.{h,m}"
-
+  s.platform     = :ios, "8.0"
   s.dependency 'Masonry', '~> 1.0.2'
   s.requires_arc = true
-  s.platform     = :ios, "8.0"
+
 
 end
