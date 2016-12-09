@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LLTFactoryUI.h"
+#import "UIView+LLTaddTap.h"
 
 @interface ViewController ()
 
@@ -25,13 +26,13 @@
         make.top.equalTo(self.view).offset(100);
         make.bottom.equalTo(self.view).offset(-100);
     }];
+    [view addtempViewWithtarget:self andSelector:@selector(viewAction) superView:self.view];
+    
     
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewAction {
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 
