@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LLTFactoryUI"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A great tool for creating UI of iOS"
 
   s.description  = <<-DESC
