@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "A great tool for creating UI of iOS"
 
   s.description  = <<-DESC
-                   这是一个简单的工具类，为了以最快的速度代码创建iOS的UI
+                   这是一个简单的工具类，为了以最快的速度代码创建iOS的UI，觉得还不错分享出来供大家使用。
                    DESC
 
   s.homepage     = "https://github.com/lileitao/SetUpUIdemo"
